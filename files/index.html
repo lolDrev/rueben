@@ -64,8 +64,8 @@
     const repo = 'rueben'; // Replace with your repository name
     const branch = 'main'; // Change if using a different branch
 
-    const apiUrl = `https://api.github.com/repos/${username}/${repo}/dl/contents/`;
-    const rawUrl = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/`;
+    const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/dl/`;
+    const rawUrl = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/dl/`;
 
     // Tracks navigation history for "Back" functionality
     let historyStack = [];
