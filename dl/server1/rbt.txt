@@ -1,0 +1,16 @@
+~Note memaparkan blok simulasi
+ButtonA1_Show = On
+ButtonC1_Show = On
+ButtonA1_Show_Text = Suis tekan tutup
+ButtonA1_Update
+ButtonC1_Show_Text = Diod pemancar cahaya
+ButtonC1_Update
+~Note pengaturcaraan blok berkelip
+If ButtonA1 = Pressed
+ButtonC1_Show = On
+Timer = 1 sec
+ButtonC1_Show = Off
+Timer = 1 sec
+Goto = 10
+End If
+Goto = 1
